@@ -1,6 +1,10 @@
 # RayTracer Java
+_Fait par Taycir BEN OUIRANE et Saifeddine KEFI_
+_FISA CI1 Informatique_
 
 Petit moteur de raytracing en Java 11 qui lit un fichier `.scene`, construit la scène (caméra, lumières, matériaux, géométrie) puis calcule chaque pixel (Lambert + Blinn-Phong + ombres) avant d'écrire un PNG.
+Concrètement, le programme parcourt chaque pixel de l’image, crée un rayon qui part de la caméra et traverse ce pixel, cherche quel objet est touché en premier, puis calcule la couleur de ce point en fonction des lumières et des ombres. Cette couleur est convertie en RGB et écrite dans l’image finale, ce qui permet de générer un rendu 3D réaliste à partir de simples descriptions textuelles.
+
 
 - [Vue d'ensemble](#vue-densemble)
 - [Prérequis et dépendances](#prérequis-et-dépendances)
@@ -92,8 +96,12 @@ Les commandes disponibles sont listées ci-dessous. Les valeurs sont validées (
 * `raytracer.geometry` : points, vecteurs, repères et formes dans `geometry.shapes`.
 * `raytracer.lighting` : lumières directionnelles/ponctuelles (direction, intensité, distance max).
 * `raytracer.imaging` : couleurs flottantes et renderer PNG.
+* `imgcompare.ImageComparator` : utilitaire qui compare deux images ; pour chaque pixel, si les valeurs diffèrent entre l’image A et l’image B il est coloré en magenta (`#FF00FF`), sinon le pixel original est conservé dans l’image de sortie. **Remarque** nous avons choisi une approche que nous trouvions plus lisible pour visualiser les différences de pixels entre deux images.
 
 ## Qualité et tests
+* Nos tests unitaires et d’intégration ont été validés jusqu’au **Jalon 5**.  
+Nous n’avons pas eu le temps de finaliser le **Jalon 6**, mais nous avons commencé à implémenter les classes `Triangle.java` et `Plane.java` en suivant l’énoncé.
+* Le test de comparaison d’images `src/main/java/test/Test.java` nous a été **très utile pour accélérer les vérifications** visuelles entre l’image générée et l’image de référence durant le développement.
 
 * Tests JUnit 5 sur la géométrie, les intersections, l'éclairage et le parsing.
 * Lancer :
@@ -101,7 +109,6 @@ Les commandes disponibles sont listées ci-dessous. Les valeurs sont validées (
   ```bash
   mvn test
   ```
-* Si Maven ne peut pas accéder au dépôt central, il faut configurer un miroir ou utiliser un cache local.
 
 ## Débogage rapide / FAQ
 
