@@ -10,7 +10,6 @@ Petit moteur de raytracing en Java 11 qui lit un fichier `.scene`, construit la 
 - [Architecture](#architecture)
 - [Qualité et tests](#qualité-et-tests)
 - [Débogage rapide / FAQ](#débogage-rapide--faq)
-- [Pistes d'amélioration](#pistes-damélioration)
 
 ## Vue d'ensemble
 - Caméra perspective paramétrable (position, cible, up, champ de vision).
@@ -110,12 +109,6 @@ Les commandes disponibles sont listées ci-dessous. Les valeurs sont validées (
 * Auto-intersections / artefacts brillants : ajouter un léger décalage du rayon d'ombre le long de la normale (non implémenté par défaut).
 * Fichier non trouvé : lancer la commande depuis la racine du projet ou utiliser un chemin absolu vers le `.scene`.
 * Résolution déformée : adapter le champ de vision ou le ratio `width/height` dans `size`.
-
-## Pistes d'amélioration
-
-* Anti-crénelage (multi-échantillonnage) pour lisser les contours.
-* Décalage systématique des rayons d'ombre depuis le point d'intersection pour limiter l'auto-ombre.
-* Matériaux avancés (transparence, réfraction) et accélérateur spatial (BVH) pour les grandes scènes.
 
 ```
 ```
