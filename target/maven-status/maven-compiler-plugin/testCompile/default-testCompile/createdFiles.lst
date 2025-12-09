@@ -1,5 +1,4 @@
 raytracer/ShadowTest.class
-raytracer/PlaneTest.class
 raytracer/ColorTest.class
 raytracer/SphereTest.class
 raytracer/SceneTest.class
@@ -8,7 +7,6 @@ raytracer/PhongTest.class
 raytracer/CombinedLightingTest.class
 raytracer/LightingTest.class
 raytracer/PointTest.class
-raytracer/TriangleTest.class
 raytracer/SphereIntersectionTest.class
 raytracer/CameraTest.class
 raytracer/RayTracer.class

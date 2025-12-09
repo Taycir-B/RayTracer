@@ -3,7 +3,7 @@
   <properties>
     <property name="java.specification.version" value="25"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/Users/tessa/Downloads/imgcompare-lyoum-3/target/test-classes:/Users/tessa/Downloads/imgcompare-lyoum-3/target/classes:/Users/tessa/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.3/junit-jupiter-5.9.3.jar:/Users/tessa/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.3/junit-jupiter-api-5.9.3.jar:/Users/tessa/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/tessa/.m2/repository/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.jar:/Users/tessa/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/tessa/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.3/junit-jupiter-params-5.9.3.jar:/Users/tessa/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.3/junit-jupiter-engine-5.9.3.jar:/Users/tessa/.m2/repository/org/junit/platform/junit-platform-engine/1.9.3/junit-platform-engine-1.9.3.jar:"/>
+    <property name="java.class.path" value="/Users/tessa/Downloads/RayTracer/target/test-classes:/Users/tessa/Downloads/RayTracer/target/classes:/Users/tessa/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.3/junit-jupiter-5.9.3.jar:/Users/tessa/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.3/junit-jupiter-api-5.9.3.jar:/Users/tessa/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/tessa/.m2/repository/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.jar:/Users/tessa/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/tessa/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.3/junit-jupiter-params-5.9.3.jar:/Users/tessa/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.3/junit-jupiter-engine-5.9.3.jar:/Users/tessa/.m2/repository/org/junit/platform/junit-platform-engine/1.9.3/junit-platform-engine-1.9.3.jar:"/>
     <property name="java.vm.vendor" value="Homebrew"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
@@ -12,10 +12,10 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="FR"/>
     <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/25.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/tessa/Downloads/imgcompare-lyoum-3/target/surefire/surefirebooter-20251209104844946_3.jar /Users/tessa/Downloads/imgcompare-lyoum-3/target/surefire 2025-12-09T10-48-44_917-jvmRun1 surefire-20251209104844946_1tmp surefire_0-20251209104844946_2tmp"/>
+    <property name="sun.java.command" value="/Users/tessa/Downloads/RayTracer/target/surefire/surefirebooter-20251209161342764_3.jar /Users/tessa/Downloads/RayTracer/target/surefire 2025-12-09T16-13-42_730-jvmRun1 surefire-20251209161342764_1tmp surefire_0-20251209161342764_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/Users/tessa/Downloads/imgcompare-lyoum-3/target/test-classes:/Users/tessa/Downloads/imgcompare-lyoum-3/target/classes:/Users/tessa/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.3/junit-jupiter-5.9.3.jar:/Users/tessa/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.3/junit-jupiter-api-5.9.3.jar:/Users/tessa/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/tessa/.m2/repository/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.jar:/Users/tessa/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/tessa/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.3/junit-jupiter-params-5.9.3.jar:/Users/tessa/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.3/junit-jupiter-engine-5.9.3.jar:/Users/tessa/.m2/repository/org/junit/platform/junit-platform-engine/1.9.3/junit-platform-engine-1.9.3.jar:"/>
+    <property name="surefire.test.class.path" value="/Users/tessa/Downloads/RayTracer/target/test-classes:/Users/tessa/Downloads/RayTracer/target/classes:/Users/tessa/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.3/junit-jupiter-5.9.3.jar:/Users/tessa/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.3/junit-jupiter-api-5.9.3.jar:/Users/tessa/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/tessa/.m2/repository/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.jar:/Users/tessa/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/tessa/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.3/junit-jupiter-params-5.9.3.jar:/Users/tessa/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.3/junit-jupiter-engine-5.9.3.jar:/Users/tessa/.m2/repository/org/junit/platform/junit-platform-engine/1.9.3/junit-platform-engine-1.9.3.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/tessa"/>
     <property name="user.language" value="fr"/>
@@ -23,13 +23,13 @@
     <property name="java.version.date" value="2025-10-21"/>
     <property name="java.home" value="/opt/homebrew/Cellar/openjdk/25.0.1/libexec/openjdk.jdk/Contents/Home"/>
     <property name="file.separator" value="/"/>
-    <property name="basedir" value="/Users/tessa/Downloads/imgcompare-lyoum-3"/>
+    <property name="basedir" value="/Users/tessa/Downloads/RayTracer"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/tessa/Downloads/imgcompare-lyoum-3/target/surefire/surefirebooter-20251209104844946_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/tessa/Downloads/RayTracer/target/surefire/surefirebooter-20251209161342764_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="25.0.1"/>
@@ -45,7 +45,7 @@
     <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
     <property name="java.io.tmpdir" value="/var/folders/l5/l5_mtcfj2rvb7t_6__srs1j80000gn/T/"/>
     <property name="java.version" value="25.0.1"/>
-    <property name="user.dir" value="/Users/tessa/Downloads/imgcompare-lyoum-3"/>
+    <property name="user.dir" value="/Users/tessa/Downloads/RayTracer"/>
     <property name="os.arch" value="aarch64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="native.encoding" value="UTF-8"/>
@@ -59,10 +59,10 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="69.0"/>
   </properties>
-  <testcase name="testSetWidthHeight" classname="raytracer.SceneTest" time="0.001"/>
-  <testcase name="testDefaultValues" classname="raytracer.SceneTest" time="0.001"/>
-  <testcase name="testAddLight" classname="raytracer.SceneTest" time="0.0"/>
+  <testcase name="testSetWidthHeight" classname="raytracer.SceneTest" time="0.0"/>
+  <testcase name="testDefaultValues" classname="raytracer.SceneTest" time="0.0"/>
+  <testcase name="testAddLight" classname="raytracer.SceneTest" time="0.001"/>
   <testcase name="testAddShape" classname="raytracer.SceneTest" time="0.0"/>
-  <testcase name="testSetCamera" classname="raytracer.SceneTest" time="0.001"/>
+  <testcase name="testSetCamera" classname="raytracer.SceneTest" time="0.0"/>
   <testcase name="testSetOutput" classname="raytracer.SceneTest" time="0.0"/>
 </testsuite>

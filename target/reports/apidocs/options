@@ -1,0 +1,25 @@
+--no-fonts
+-encoding
+'UTF-8'
+-protected
+-source
+'11'
+-sourcepath
+'/Users/tessa/Downloads/RayTracer/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2025. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/Users/tessa/Downloads/RayTracer/target/reports/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'imgcompare 1.0-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/en/java/javase/11/docs/api' '/Users/tessa/Downloads/RayTracer/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'imgcompare 1.0-SNAPSHOT API'

@@ -26,6 +26,20 @@
 
   <build>
     <plugins>
+
+      <!-- ===== FIX Javadoc ===== -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-javadoc-plugin</artifactId>
+        <version>3.12.0</version>
+        <configuration>
+          <encoding>UTF-8</encoding>
+          <docencoding>UTF-8</docencoding>
+          <charset>UTF-8</charset>
+          <failOnError>false</failOnError>
+        </configuration>
+      </plugin>
+
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-jar-plugin</artifactId>
@@ -67,7 +81,6 @@
             </configuration>
           </execution>
 
-
           <!-- JAR Test Jalon -->
           <execution>
             <id>TestJalon-jar</id>
@@ -87,6 +100,8 @@
 
         </executions>
       </plugin>
+
     </plugins>
   </build>
+
 </project>

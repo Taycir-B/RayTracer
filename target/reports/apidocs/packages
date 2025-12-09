@@ -1,0 +1,9 @@
+imgcompare
+test
+raytracer.core
+raytracer.app
+raytracer.imaging
+raytracer.lighting
+raytracer.geometry
+raytracer.geometry.shapes
+raytracer.parsing
