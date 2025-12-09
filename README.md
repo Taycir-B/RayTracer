@@ -1,5 +1,5 @@
 # RayTracer Java
-_Fait par Taycir BEN OUIRANE et Saifeddine KEFI_
+_Fait par Taycir BEN OUIRANE et Saifeddine KEFI_-
 _FISA CI1 Informatique_
 
 Petit moteur de raytracing en Java 11 qui lit un fichier `.scene`, construit la scène (caméra, lumières, matériaux, géométrie) puis calcule chaque pixel (Lambert + Blinn-Phong + ombres) avant d'écrire un PNG.
