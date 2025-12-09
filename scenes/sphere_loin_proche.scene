@@ -1,0 +1,20 @@
+# Deux sphères : une proche à gauche, une loin bien à droite
+
+size 400 300
+output spheres_proche_loin.png
+
+# Caméra au centre, regarde vers -Z, up = +Y, FOV = 60°
+camera 0 0 0   0 0 -1   0 1 0   60
+
+# Lumière ambiante (jalon 3 : utilisée comme couleur d'intersection)
+ambient 0.3 0.3 0.3
+
+# Couleur diffuse par défaut (ambient + diffuse <= 1)
+diffuse 0.6 0.6 0.6
+specular 0.0 0.0 0.0
+
+# Sphère proche, à gauche, légèrement plus petite pour éviter qu'elle soit trop coupée
+sphere -0.8 0 -2 0.6
+
+# Sphère plus loin, nettement à droite et un peu plus grosse
+sphere 1.5 0 -5 0.8

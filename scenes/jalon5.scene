@@ -1,0 +1,35 @@
+# Image
+size 400 300
+output jalon5.png
+
+# Camera
+camera 0 1 5   0 1 0   0 1 0   45
+
+# Lumière ambiante (faible)
+ambient 0.1 0.1 0.1
+
+# Matériaux standard
+diffuse 0.6 0.1 0.1
+specular 1.0 1.0 1.0
+shininess 50
+
+# Lumière ponctuelle brillante (donne du Phong)
+point 3 5 2   0.7 0.7 0.7
+
+# Lumière directionnelle douce
+directional -1 -1 -1   0.2 0.2 0.2
+
+# Une sphère brillante
+sphere 0 1 0 1
+
+# Une deuxième sphère servant à projeter une ombre
+diffuse 0.2 0.2 0.8
+specular 0.5 0.5 0.5
+shininess 10
+sphere -2 0.7 -1 0.7
+
+# Sol
+diffuse 0.4 0.4 0.4
+specular 0 0 0
+shininess 0
+plane 0 0 0   0 1 0

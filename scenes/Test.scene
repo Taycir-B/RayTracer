@@ -1,0 +1,17 @@
+# Taille de l'image
+size 400 300
+
+# Nom du fichier de sortie
+output test.png
+
+# Camera : from(0,0,0) vers (0,0,-1), up=(0,1,0), fov = 60°
+camera 0 0 0   0 0 -1   0 1 0   60
+
+# Lumière ambiante (jalon 3 : on l'utilise comme couleur des points)
+ambient 0.2 0.2 0.2
+
+# Couleur diffuse par défaut pour les sphères (ambient + diffuse <= 1 sur chaque composante)
+diffuse 0.6 0.6 0.6
+
+# Une sphère centrée devant la caméra
+sphere 0 0 -3 1

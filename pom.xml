@@ -1,0 +1,92 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>imgcompare</groupId>
+  <artifactId>imgcompare</artifactId>
+  <version>1.0-SNAPSHOT</version>
+
+  <properties>
+    <maven.compiler.source>11</maven.compiler.source>
+    <maven.compiler.target>11</maven.compiler.target>
+  </properties>
+
+  <!-- ===== DEPENDANCES ===== -->
+  <dependencies>
+    <!-- JUnit 5 -->
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter</artifactId>
+      <version>5.9.3</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jar-plugin</artifactId>
+        <version>3.2.2</version>
+
+        <executions>
+
+          <!-- JAR RayTracer -->
+          <execution>
+            <id>raytracer-jar</id>
+            <phase>package</phase>
+            <goals>
+              <goal>jar</goal>
+            </goals>
+            <configuration>
+              <classifier>raytracer</classifier>
+              <archive>
+                <manifest>
+                  <mainClass>raytracer.app.RaytracerMain</mainClass>
+                </manifest>
+              </archive>
+            </configuration>
+          </execution>
+
+          <!-- JAR Comparateur d'image -->
+          <execution>
+            <id>imgcompare-jar</id>
+            <phase>package</phase>
+            <goals>
+              <goal>jar</goal>
+            </goals>
+            <configuration>
+              <classifier>imgcompare</classifier>
+              <archive>
+                <manifest>
+                  <mainClass>imgcompare.Main</mainClass>
+                </manifest>
+              </archive>
+            </configuration>
+          </execution>
+
+
+          <!-- JAR Test Jalon -->
+          <execution>
+            <id>TestJalon-jar</id>
+            <phase>package</phase>
+            <goals>
+              <goal>jar</goal>
+            </goals>
+            <configuration>
+              <classifier>jalon-test</classifier>
+              <archive>
+                <manifest>
+                  <mainClass>test.Test</mainClass>
+                </manifest>
+              </archive>
+            </configuration>
+          </execution>
+
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+</project>

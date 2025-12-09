@@ -1,0 +1,10 @@
+size 400 400
+output sphere_carre.png
+
+camera 0 0 0   0 0 -1   0 1 0   60
+
+ambient 0.3 0.3 0.3
+diffuse 0.6 0.6 0.6
+specular 0.0 0.0 0.0
+
+sphere 0 0 -3 1

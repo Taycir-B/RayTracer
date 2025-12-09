@@ -1,0 +1,11 @@
+size 400 300
+output sphere_droite.png
+
+camera 0 0 0   0 0 -1   0 1 0   60
+
+ambient 0.3 0.3 0.3
+diffuse 0.6 0.6 0.6
+specular 0.0 0.0 0.0
+
+# Sphère décalée vers la droite (X>0)
+sphere 1.0 0 -3 1

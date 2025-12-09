@@ -1,0 +1,17 @@
+# Image 400x300 avec une sphère bien centrée
+
+size 400 300
+output sphere_centrale.png
+
+# Camera au centre, regarde vers -Z, FOV 60°
+camera 0 0 0   0 0 -1   0 1 0   60
+
+# Ambient assez clair
+ambient 0.3 0.3 0.3
+
+# Diffuse pour les sphères (ambient + diffuse <= 1)
+diffuse 0.6 0.6 0.6
+specular 0.0 0.0 0.0
+
+# Sphère centrée devant la caméra
+sphere 0 0 -3 1
